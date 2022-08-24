@@ -576,9 +576,17 @@ DesignationSystem.southPacific = new DesignationSystem({
 DesignationSystem.southAtlantic = new DesignationSystem({
     displayName: 'South Atlantic',
     suffix: 'Q',
+    annual: true,
     mainLists: [
+        ['Axle','Bettie','Connor','Dessie','Elon','Fara','Gary','Hela','Idris','Jennifer','Knut','Layla','Maxwell','Naomi','Odin','Penny','Rambo','Samantha','Thomas','Victoria','Winston'];
+        ['Ava','Bart','Charlotte','Dave','Elwyn','Freddy','Gail','Hectino','Ivy','James','Katie','Loki','Maxine','Norm','Olwyn','Pill','Ramona','Steve','Thalia','Vic','Winona'];
+        ['Adam','Bess','Crypto','Daisy','Ed','Freya','Gregory','Hora','Ikal','Jessica','Kris','Liv','Mason','Nyla','Oralis','Phoebe','Roger','Sydney','Tim','Vera','Wilcomb'];
+        ['Amy','Beau','Cheri','Dylan','Eleanor','Franky','Glenda','Herschel','Inna','Jordan','Kara','Luke','Mara','Noah','Ora','Phil','Roberta','Seth','Tahina','Volcrum','Weena'];
+    ],
+    auxLists: [
         ['Arani','Bapo','Cari','Deni','E\u00e7a\u00ed','Guar\u00e1','Iba','Jaguar','Kurum\u00ed','Mani','Oquira','Potira','Raoni','Ub\u00e1','Yakecan']
     ]
+
 });
 
 DesignationSystem.atlantic1979 = new DesignationSystem({
@@ -597,6 +605,7 @@ DesignationSystem.atlantic1979 = new DesignationSystem({
     auxLists: [
         ['Alpha','Beta','Gamma','Delta','Epsilon','Zeta','Eta','Theta','Iota','Kappa','Lambda','Mu','Nu','Xi','Omicron','Pi','Rho','Sigma','Tau','Upsilon','Phi','Chi','Psi','Omega']
     ]
+    
 });
 
 DesignationSystem.periodicTable = new DesignationSystem({
